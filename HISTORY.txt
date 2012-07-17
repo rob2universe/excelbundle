@@ -1,0 +1,27 @@
+History
+-------------
+
+Version 0.9.5:
+- Upgraded to Apache POI 3.8 
+- published on github (https://github.com/remsbach/excelbundle)
+
+Version 0.9.4:
+- Added logging (sl4f / log4j) for better debugging
+- Upgraded to Apache POI 3.2
+
+Version 0.9 - 0.9.3:
+Somehow additional versions exist on the web, but src was not published on java.net.
+
+Version 0.9:
+- converted to Maven project
+- published on Maven Central (http://central.maven.org/maven2/net/java/excelbundle/excelbundle/)
+
+Up to version 0.9:
+Created and published under Apache License Version 2.0 on java.net 
+(http://java.net/projects/excelbundle/sources/svn/show)
+
+
+
+
+From version 0.9:  Robert Emsbach (robert@emsbach.net)
+Up to version 0.9: Emil Eriksson (shadewind[at]gmail[dot]com)
