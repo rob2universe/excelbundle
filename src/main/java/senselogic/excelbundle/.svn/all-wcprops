@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/excelbundle~svn/!svn/ver/7/tags/excelbundle-0.9/src/java/senselogic/excelbundle
+END
+ExportAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/excelbundle~svn/!svn/ver/7/tags/excelbundle-0.9/src/java/senselogic/excelbundle/ExportAction.java
+END
+Merger.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/excelbundle~svn/!svn/ver/7/tags/excelbundle-0.9/src/java/senselogic/excelbundle/Merger.java
+END
+ExcelImporter.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/excelbundle~svn/!svn/ver/7/tags/excelbundle-0.9/src/java/senselogic/excelbundle/ExcelImporter.java
+END
+LanguagePack.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/excelbundle~svn/!svn/ver/7/tags/excelbundle-0.9/src/java/senselogic/excelbundle/LanguagePack.java
+END
+LanguageFile.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/excelbundle~svn/!svn/ver/7/tags/excelbundle-0.9/src/java/senselogic/excelbundle/LanguageFile.java
+END
+Main.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/excelbundle~svn/!svn/ver/7/tags/excelbundle-0.9/src/java/senselogic/excelbundle/Main.java
+END
+BundleInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/excelbundle~svn/!svn/ver/7/tags/excelbundle-0.9/src/java/senselogic/excelbundle/BundleInfo.java
+END
+ImportAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/excelbundle~svn/!svn/ver/7/tags/excelbundle-0.9/src/java/senselogic/excelbundle/ImportAction.java
+END
+ExcelExporter.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/excelbundle~svn/!svn/ver/7/tags/excelbundle-0.9/src/java/senselogic/excelbundle/ExcelExporter.java
+END
+LanguageTreeIO.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/excelbundle~svn/!svn/ver/7/tags/excelbundle-0.9/src/java/senselogic/excelbundle/LanguageTreeIO.java
+END
+EscapeUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/excelbundle~svn/!svn/ver/7/tags/excelbundle-0.9/src/java/senselogic/excelbundle/EscapeUtil.java
+END
