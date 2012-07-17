@@ -1,13 +1,10 @@
 History
 -------------
 
-Version 0.9.5:
-- Upgraded to Apache POI 3.8 
-- published on github (https://github.com/remsbach/excelbundle)
-
 Version 0.9.4:
 - Added logging (sl4f / log4j) for better debugging
 - Upgraded to Apache POI 3.2
+- published on github (https://github.com/remsbach/excelbundle)
 
 Version 0.9 - 0.9.3:
 Somehow additional versions exist on the web, but src was not published on java.net.

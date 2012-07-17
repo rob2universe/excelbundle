@@ -61,8 +61,13 @@ public class ExcelImporter {
 	 */
 	public LanguagePack loadLanguage(String language) {
 		LanguagePack pack = new LanguagePack(language);
+		log.info("Number of sheets in workbook: " + wb.getNumberOfSheets());
 		for (short i = 0; i < wb.getNumberOfSheets(); i++)
+		{			
+			log.info("Processing sheet: " + i + " for locale: " + language);
+			//TODO add exception handling if workbook contains invalid sheet 
 			getFromSheet(wb.getSheetAt(i), language, pack);
+		}
 
 		if (!pack.getLanguageFiles().isEmpty())
 			return pack;
@@ -85,7 +90,7 @@ public class ExcelImporter {
 			if ((r != null) && (r.getPhysicalNumberOfCells() != 0)) {
 				rows.add(r);
 				if (log.isDebugEnabled())
-					log.debug("Adding row: " + r);
+					log.debug("Adding row: " + (int)r.getRowNum());
 			}
 		}
 
@@ -97,24 +102,19 @@ public class ExcelImporter {
 
 			if (log.isDebugEnabled()) {
 				if (r != null) {
-					log.debug("Adding row number: " + (int)r.getRowNum());
 					for (@SuppressWarnings("unchecked")
 					Iterator<HSSFCell> cellIter = r.cellIterator(); cellIter
 							.hasNext();) {
 						HSSFCell cell = cellIter.next();
-						log.debug("Cell " + cell.getRowIndex() +":"+ cell.getColumnIndex() + " type:" + cell.getCellType() + " val:" + cell.getRichStringCellValue());
+						log.debug("Cell " + cell.getRowIndex() +":"+ (int)cell.getColumnIndex() + " val:" + getString(cell));
 						
 					}
 				}
 			}
 
-			if (r == null || r.getCell(0) != null)
-				log.warn("Row is null.");
 			HSSFCell c = r.getCell((int) 0);
 
 			String value = getString(c);
-			if (log.isDebugEnabled())
-				log.debug("Value: " + value);
 			if ((value.charAt(0) != '/') && (value.charAt(0) != '\\'))
 				continue;
 

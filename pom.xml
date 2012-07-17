@@ -5,7 +5,7 @@
 	<artifactId>excelbundle</artifactId>
 	<packaging>jar</packaging>
 	<name>Excelbundle</name>
-	<version>0.9.5-SNAPSHOT</version>
+	<version>0.9.4</version>
 	<description>Tool for converting resource bundles to Excel spreadsheets and vice versa.</description>
 	<url>https://github.com/remsbach/excelbundle.git</url>
 	<licenses>
